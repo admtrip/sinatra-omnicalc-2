@@ -1,12 +1,18 @@
-<h1>New addition</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Addition</title>
+</head>
+<body>
+  <h1>Addition</h1>
+  <form action="/wizard_add" method="get">
+    <label for="first_num">Add this:</label>
+    <input type="text" id="first_num" name="first_num" required>
 
-<form action="/wizard_add">
-  <label for="form_first_number">
-    Add this:
-  </label>
-  <input id="form_first_number" name="first_number" text="text">
+    <label for="second_num">to this:</label>
+    <input type="text" id="second_num" name="second_num" required>
 
-  <button>
-    Add!
-  </button>
-</form>
+    <button type="submit">Add!</button>
+  </form>
+</body>
+</html>
